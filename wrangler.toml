@@ -1,0 +1,11 @@
+name = "x-kom-hotshot"
+main = "src/index.js"
+compatibility_date = "2022-12-26"
+
+[triggers]
+crons = ["0 9 * * *","0 21 * * *"]
+
+[[kv_namespaces]]
+binding = "KV"
+preview_id = "671abca398e24474b701639f3c81598e"
+id = "671abca398e24474b701639f3c81598e"

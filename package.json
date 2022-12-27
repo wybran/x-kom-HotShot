@@ -1,0 +1,24 @@
+{
+  "name": "x-kom-hotshot",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler publish",
+    "ngrok": "ngrok http 8787"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^1.5.0",
+    "colors": "^1.4.0",
+    "discord-api-types": "^0.37.24",
+    "discord-interactions": "^3.2.0",
+    "dotenv": "^16.0.3",
+    "itty-router": "^3.0.10",
+    "node-fetch": "^3.3.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20221111.1",
+    "typescript": "^4.9.4",
+    "wrangler": "2.6.2"
+  }
+}
