@@ -8,11 +8,8 @@
     "ngrok": "ngrok http 8787"
   },
   "dependencies": {
-    "@discordjs/rest": "^1.5.0",
-    "colors": "^1.4.0",
     "discord-api-types": "^0.37.24",
     "discord-interactions": "^3.2.0",
-    "dotenv": "^16.0.3",
     "itty-router": "^3.0.10",
     "node-fetch": "^3.3.0"
   },
