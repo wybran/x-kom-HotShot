@@ -1,3 +1,5 @@
+[Kliknij aby zaprosić mnie na swój serwer 🥰](https://discord.com/oauth2/authorize?client_id=1057682359383765062&permissions=2048&scope=bot%20applications.commands)
+
 ### Storing secrets
 ```
 $ wrangler secret put DISCORD_TOKEN

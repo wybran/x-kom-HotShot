@@ -38,7 +38,7 @@ router.post('/', async (request, env) => {
           return respond({
             type: InteractionResponseType.ChannelMessageWithSource,
             data: {
-              content: `[Click to use bot 🥳](https://discord.com/oauth2/authorize?client_id=${botId}&permissions=3072&scope=applications.commands%20bot)`,
+              content: `[Kliknij aby zaprosić mnie na swój serwer 🥰](https://discord.com/oauth2/authorize?client_id=${botId}&permissions=2048&scope=bot%20applications.commands)`,
               flags: MessageFlags.Ephemeral
             }
           })
