@@ -20,6 +20,10 @@ export const embed = (data) => {
             {
                 name: data.PromotionGainText,
                 value: `~~${data.OldPrice}~~ **${data.Price}** zł`
+            },
+            {
+                name: "Najniższa cena z 30 dni przed obniżką:",
+                value: `${data.Product.MinPriceInfo.MinPrice} zł`
             }
         ]
     };

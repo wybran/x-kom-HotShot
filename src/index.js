@@ -26,7 +26,6 @@ router.get('/register', async (request, env) => {
 router.post('/', async (request, env) => {
   const interaction = await request.json();
   if (interaction.type === InteractionType.Ping) {
-    console.log('Handling Ping request');
     return respond({
       type: InteractionResponseType.Pong,
     });
